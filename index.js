@@ -8,3 +8,17 @@ $('*').on( "click", function() {
     alert("Hello");
   });
  */
+
+ //function to enter items
+function enterItem(){
+
+}
+//function to check/uncheck items
+function check(){
+
+}
+
+//function to remove items
+function removeItem(){
+
+}

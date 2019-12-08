@@ -24,18 +24,20 @@ function enterItem(){
 
 //function to check/uncheck box
 function check(){
-    $('.button-label').on('click', function(event){    
+    $('.shopping-item-toggle').on('click', function(event){    
     $(event.target).closest(".shopping-item-controls").prev("span").toggleClass("shopping-item__checked");
     });
 }
 
-/*
+
 //function to remove items
 function removeItem(){
-
+    $('.shopping-item-delete').on('click', function(event){    
+       $(event.target).closest("li").remove();
+        });
 }
-*/
+
 
 $(enterItem);
 $(check);
-
+$(removeItem);
